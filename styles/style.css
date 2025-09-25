@@ -1,5 +1,4 @@
-/* Reset and Base Styles */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +14,6 @@ body {
   padding: 20px;
 }
 
-/* Header Styles */
 .recipe-header {
   text-align: center;
   margin-bottom: 40px;
@@ -47,7 +45,6 @@ body {
   height: auto;
 }
 
-/* Section Styles */
 section {
   margin-bottom: 40px;
   padding: 25px;
@@ -64,7 +61,6 @@ h2 {
   padding-bottom: 10px;
 }
 
-/* Recipe Info Grid */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -79,7 +75,6 @@ h2 {
   border-left: 4px solid #deb887;
 }
 
-/* Ingredients Section */
 .ingredients {
   background: #faf8f5;
 }
@@ -110,7 +105,6 @@ h2 {
   margin-right: 8px;
 }
 
-/* Instructions Section */
 .instructions {
   background: #f5f9f5;
 }
@@ -149,7 +143,6 @@ h2 {
   top: 20px;
 }
 
-/* Tips Section */
 .tips {
   background: #fff8e1;
   border: 2px dashed #ffb74d;
@@ -162,7 +155,6 @@ h2 {
   border-radius: 6px;
 }
 
-/* Nutrition Section */
 .nutrition {
   background: #e8f5e8;
 }
@@ -183,7 +175,6 @@ h2 {
   border: 2px solid #90ee90;
 }
 
-/* Footer */
 .recipe-footer {
   text-align: center;
   padding: 20px;
@@ -202,7 +193,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* Text Formatting */
 strong {
   color: #8b4513;
   font-weight: bold;
@@ -225,7 +215,6 @@ u {
   text-decoration-thickness: 2px;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
   body {
     padding: 10px;
@@ -251,7 +240,6 @@ u {
   }
 }
 
-/* Print Styles */
 @media print {
   body {
     background: white;
@@ -268,3 +256,8 @@ u {
     max-width: 300px;
   }
 }
+
+.playground {
+  display: flex;
+  flex-direction: column-reverse;
+} */
